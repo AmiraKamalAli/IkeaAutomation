@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ikeaApp.ConfirmRemoveFromCartTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="Confirm"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- ikeaApp.ConfirmRemoveFromCartTest -->
+      <class name="ikeaApp.checkItemQuantityTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="OpenCart"/>
+          <include name="getitemcount"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- ikeaApp.checkItemQuantityTest -->
+      <class name="ikeaApp.EmptyStateTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="CheckRecommedationSection"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- ikeaApp.EmptyStateTest -->
+      <class name="ikeaApp.RemoveFromCartTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="RemoveItemfromCart"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- ikeaApp.RemoveFromCartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

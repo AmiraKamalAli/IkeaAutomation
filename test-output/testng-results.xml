@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="20" total="42" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51630" started-at="2023-06-06T13:47:07 AST" finished-at="2023-06-06T13:47:58 AST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51630" started-at="2023-06-06T13:47:07 AST" finished-at="2023-06-06T13:47:58 AST">
+      <class name="ikeaApp.CompareProduct_ListAndDetailsTest">
+        <test-method status="PASS" signature="compareProduct()[pri:1, instance:ikeaApp.CompareProduct_ListAndDetailsTest@267862]" name="compareProduct" duration-ms="39" started-at="2023-06-06T13:47:30 AST" finished-at="2023-06-06T13:47:30 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareProduct -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.CompareProduct_ListAndDetailsTest@267862]" name="afterMethod" is-config="true" duration-ms="1405" started-at="2023-06-06T13:47:30 AST" finished-at="2023-06-06T13:47:31 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.CompareProduct_ListAndDetailsTest.compareProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=compareProduct status=SUCCESS method=CompareProduct_ListAndDetailsTest.compareProduct()[pri:1, instance:ikeaApp.CompareProduct_ListAndDetailsTest@267862] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.CompareProduct_ListAndDetailsTest -->
+      <class name="ikeaApp.checkcartItemTest">
+        <test-method status="PASS" signature="checkcarthasAddedItemsTest()[pri:1, instance:ikeaApp.checkcartItemTest@2675e1]" name="checkcarthasAddedItemsTest" duration-ms="1328" started-at="2023-06-06T13:47:45 AST" finished-at="2023-06-06T13:47:46 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcarthasAddedItemsTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.checkcartItemTest@2675e1]" name="afterMethod" is-config="true" duration-ms="1798" started-at="2023-06-06T13:47:46 AST" finished-at="2023-06-06T13:47:48 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.checkcartItemTest.checkcarthasAddedItemsTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=checkcarthasAddedItemsTest status=SUCCESS method=checkcartItemTest.checkcarthasAddedItemsTest()[pri:1, instance:ikeaApp.checkcartItemTest@2675e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="OpenCart()[pri:2, instance:ikeaApp.checkcartItemTest@2675e1]" name="OpenCart" duration-ms="317" started-at="2023-06-06T13:47:48 AST" finished-at="2023-06-06T13:47:48 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCart -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.checkcartItemTest@2675e1]" name="afterMethod" is-config="true" duration-ms="1452" started-at="2023-06-06T13:47:48 AST" finished-at="2023-06-06T13:47:50 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.checkcartItemTest.OpenCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OpenCart status=SUCCESS method=checkcartItemTest.OpenCart()[pri:2, instance:ikeaApp.checkcartItemTest@2675e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.checkcartItemTest -->
+      <class name="ikeaApp.ProductDetailsTest">
+        <test-method status="PASS" signature="getNameInDetails()[pri:1, instance:ikeaApp.ProductDetailsTest@b67034]" name="getNameInDetails" duration-ms="2132" started-at="2023-06-06T13:47:24 AST" finished-at="2023-06-06T13:47:27 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNameInDetails -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.ProductDetailsTest@b67034]" name="afterMethod" is-config="true" duration-ms="1480" started-at="2023-06-06T13:47:27 AST" finished-at="2023-06-06T13:47:28 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.ProductDetailsTest.getNameInDetails()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getNameInDetails status=SUCCESS method=ProductDetailsTest.getNameInDetails()[pri:1, instance:ikeaApp.ProductDetailsTest@b67034] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getPriceInDetails()[pri:2, instance:ikeaApp.ProductDetailsTest@b67034]" name="getPriceInDetails" duration-ms="198" started-at="2023-06-06T13:47:28 AST" finished-at="2023-06-06T13:47:28 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceInDetails -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.ProductDetailsTest@b67034]" name="afterMethod" is-config="true" duration-ms="1433" started-at="2023-06-06T13:47:28 AST" finished-at="2023-06-06T13:47:30 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.ProductDetailsTest.getPriceInDetails()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getPriceInDetails status=SUCCESS method=ProductDetailsTest.getPriceInDetails()[pri:2, instance:ikeaApp.ProductDetailsTest@b67034] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.ProductDetailsTest -->
+      <class name="ikeaApp.SerachResultListTest">
+        <test-method status="PASS" signature="ClicksearchResult()[pri:1, instance:ikeaApp.SerachResultListTest@14c508a]" name="ClicksearchResult" duration-ms="536" started-at="2023-06-06T13:47:17 AST" finished-at="2023-06-06T13:47:17 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClicksearchResult -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.SerachResultListTest@14c508a]" name="afterMethod" is-config="true" duration-ms="1415" started-at="2023-06-06T13:47:17 AST" finished-at="2023-06-06T13:47:19 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.SerachResultListTest.ClicksearchResult()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClicksearchResult status=SUCCESS method=SerachResultListTest.ClicksearchResult()[pri:1, instance:ikeaApp.SerachResultListTest@14c508a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getProductNameListView()[pri:2, instance:ikeaApp.SerachResultListTest@14c508a]" name="getProductNameListView" duration-ms="1178" started-at="2023-06-06T13:47:19 AST" finished-at="2023-06-06T13:47:20 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductNameListView -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.SerachResultListTest@14c508a]" name="afterMethod" is-config="true" duration-ms="1465" started-at="2023-06-06T13:47:20 AST" finished-at="2023-06-06T13:47:21 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.SerachResultListTest.getProductNameListView()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getProductNameListView status=SUCCESS method=SerachResultListTest.getProductNameListView()[pri:2, instance:ikeaApp.SerachResultListTest@14c508a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getProductPriceListView()[pri:3, instance:ikeaApp.SerachResultListTest@14c508a]" name="getProductPriceListView" duration-ms="195" started-at="2023-06-06T13:47:21 AST" finished-at="2023-06-06T13:47:21 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductPriceListView -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.SerachResultListTest@14c508a]" name="afterMethod" is-config="true" duration-ms="1419" started-at="2023-06-06T13:47:21 AST" finished-at="2023-06-06T13:47:23 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.SerachResultListTest.getProductPriceListView()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getProductPriceListView status=SUCCESS method=SerachResultListTest.getProductPriceListView()[pri:3, instance:ikeaApp.SerachResultListTest@14c508a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ClickProduct()[pri:4, instance:ikeaApp.SerachResultListTest@14c508a]" name="ClickProduct" duration-ms="231" started-at="2023-06-06T13:47:23 AST" finished-at="2023-06-06T13:47:23 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickProduct -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.SerachResultListTest@14c508a]" name="afterMethod" is-config="true" duration-ms="1442" started-at="2023-06-06T13:47:23 AST" finished-at="2023-06-06T13:47:24 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.SerachResultListTest.ClickProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickProduct status=SUCCESS method=SerachResultListTest.ClickProduct()[pri:4, instance:ikeaApp.SerachResultListTest@14c508a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.SerachResultListTest -->
+      <class name="ikeaApp.BackToHomeTest">
+        <test-method status="PASS" signature="BackToSearchResult()[pri:1, instance:ikeaApp.BackToHomeTest@1248c21]" name="BackToSearchResult" duration-ms="165" started-at="2023-06-06T13:47:37 AST" finished-at="2023-06-06T13:47:38 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackToSearchResult -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.BackToHomeTest@1248c21]" name="afterMethod" is-config="true" duration-ms="1540" started-at="2023-06-06T13:47:38 AST" finished-at="2023-06-06T13:47:39 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.BackToHomeTest.BackToSearchResult()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BackToSearchResult status=SUCCESS method=BackToHomeTest.BackToSearchResult()[pri:1, instance:ikeaApp.BackToHomeTest@1248c21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="BackToSearch()[pri:2, instance:ikeaApp.BackToHomeTest@1248c21]" name="BackToSearch" duration-ms="372" started-at="2023-06-06T13:47:39 AST" finished-at="2023-06-06T13:47:40 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackToSearch -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.BackToHomeTest@1248c21]" name="afterMethod" is-config="true" duration-ms="1406" started-at="2023-06-06T13:47:40 AST" finished-at="2023-06-06T13:47:41 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.BackToHomeTest.BackToSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BackToSearch status=SUCCESS method=BackToHomeTest.BackToSearch()[pri:2, instance:ikeaApp.BackToHomeTest@1248c21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="BackToSearchHistory()[pri:3, instance:ikeaApp.BackToHomeTest@1248c21]" name="BackToSearchHistory" duration-ms="238" started-at="2023-06-06T13:47:41 AST" finished-at="2023-06-06T13:47:41 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackToSearchHistory -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.BackToHomeTest@1248c21]" name="afterMethod" is-config="true" duration-ms="1456" started-at="2023-06-06T13:47:41 AST" finished-at="2023-06-06T13:47:43 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.BackToHomeTest.BackToSearchHistory()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BackToSearchHistory status=SUCCESS method=BackToHomeTest.BackToSearchHistory()[pri:3, instance:ikeaApp.BackToHomeTest@1248c21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="BackToHome()[pri:4, instance:ikeaApp.BackToHomeTest@1248c21]" name="BackToHome" duration-ms="218" started-at="2023-06-06T13:47:43 AST" finished-at="2023-06-06T13:47:43 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BackToHome -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.BackToHomeTest@1248c21]" name="afterMethod" is-config="true" duration-ms="1765" started-at="2023-06-06T13:47:43 AST" finished-at="2023-06-06T13:47:45 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.BackToHomeTest.BackToHome()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=BackToHome status=SUCCESS method=BackToHomeTest.BackToHome()[pri:4, instance:ikeaApp.BackToHomeTest@1248c21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.BackToHomeTest -->
+      <class name="ikeaApp.SearchTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:ikeaApp.SearchTest@1a947fe]" name="beforeSuite" is-config="true" duration-ms="11913" started-at="2023-06-06T13:46:55 AST" finished-at="2023-06-06T13:47:07 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="ClickSearch()[pri:1, instance:ikeaApp.SearchTest@1a947fe]" name="ClickSearch" duration-ms="6860" started-at="2023-06-06T13:47:07 AST" finished-at="2023-06-06T13:47:14 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearch -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.SearchTest@1a947fe]" name="afterMethod" is-config="true" duration-ms="1433" started-at="2023-06-06T13:47:14 AST" finished-at="2023-06-06T13:47:15 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.SearchTest.ClickSearch()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=ClickSearch status=SUCCESS method=SearchTest.ClickSearch()[pri:1, instance:ikeaApp.SearchTest@1a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchForProduct()[pri:2, instance:ikeaApp.SearchTest@1a947fe]" name="SearchForProduct" duration-ms="171" started-at="2023-06-06T13:47:15 AST" finished-at="2023-06-06T13:47:15 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForProduct -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.SearchTest@1a947fe]" name="afterMethod" is-config="true" duration-ms="1409" started-at="2023-06-06T13:47:15 AST" finished-at="2023-06-06T13:47:17 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.SearchTest.SearchForProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SearchForProduct status=SUCCESS method=SearchTest.SearchForProduct()[pri:2, instance:ikeaApp.SearchTest@1a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:ikeaApp.SearchTest@1a947fe]" name="afterSuite" is-config="true" duration-ms="1746" started-at="2023-06-06T13:47:58 AST" finished-at="2023-06-06T13:48:00 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- ikeaApp.SearchTest -->
+      <class name="ikeaApp.checkItemQuantityTest">
+        <test-method status="PASS" signature="getitemcount()[pri:1, instance:ikeaApp.checkItemQuantityTest@166e06f]" name="getitemcount" duration-ms="147" started-at="2023-06-06T13:47:50 AST" finished-at="2023-06-06T13:47:50 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getitemcount -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.checkItemQuantityTest@166e06f]" name="afterMethod" is-config="true" duration-ms="1396" started-at="2023-06-06T13:47:50 AST" finished-at="2023-06-06T13:47:51 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.checkItemQuantityTest.getitemcount()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=getitemcount status=SUCCESS method=checkItemQuantityTest.getitemcount()[pri:1, instance:ikeaApp.checkItemQuantityTest@166e06f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="OpenCart()[pri:2, instance:ikeaApp.checkItemQuantityTest@166e06f]" name="OpenCart" duration-ms="152" started-at="2023-06-06T13:47:51 AST" finished-at="2023-06-06T13:47:51 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCart -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.checkItemQuantityTest@166e06f]" name="afterMethod" is-config="true" duration-ms="1439" started-at="2023-06-06T13:47:51 AST" finished-at="2023-06-06T13:47:53 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.checkItemQuantityTest.OpenCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OpenCart status=SUCCESS method=checkItemQuantityTest.OpenCart()[pri:2, instance:ikeaApp.checkItemQuantityTest@166e06f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.checkItemQuantityTest -->
+      <class name="ikeaApp.EmptyStateTest">
+        <test-method status="PASS" signature="CheckRecommedationSection()[pri:1, instance:ikeaApp.EmptyStateTest@10c2d26]" name="CheckRecommedationSection" duration-ms="954" started-at="2023-06-06T13:47:56 AST" finished-at="2023-06-06T13:47:57 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRecommedationSection -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.EmptyStateTest@10c2d26]" name="afterMethod" is-config="true" duration-ms="1435" started-at="2023-06-06T13:47:57 AST" finished-at="2023-06-06T13:47:58 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.EmptyStateTest.CheckRecommedationSection()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CheckRecommedationSection status=SUCCESS method=EmptyStateTest.CheckRecommedationSection()[pri:1, instance:ikeaApp.EmptyStateTest@10c2d26] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.EmptyStateTest -->
+      <class name="ikeaApp.ConfirmRemoveFromCartTest">
+        <test-method status="PASS" signature="Confirm()[pri:1, instance:ikeaApp.ConfirmRemoveFromCartTest@72da34]" name="Confirm" duration-ms="197" started-at="2023-06-06T13:47:54 AST" finished-at="2023-06-06T13:47:54 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirm -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.ConfirmRemoveFromCartTest@72da34]" name="afterMethod" is-config="true" duration-ms="1422" started-at="2023-06-06T13:47:55 AST" finished-at="2023-06-06T13:47:56 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.ConfirmRemoveFromCartTest.Confirm()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Confirm status=SUCCESS method=ConfirmRemoveFromCartTest.Confirm()[pri:1, instance:ikeaApp.ConfirmRemoveFromCartTest@72da34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.ConfirmRemoveFromCartTest -->
+      <class name="ikeaApp.AddToCartTest">
+        <test-method status="PASS" signature="AddItemToCart()[pri:1, instance:ikeaApp.AddToCartTest@13da22c]" name="AddItemToCart" duration-ms="312" started-at="2023-06-06T13:47:31 AST" finished-at="2023-06-06T13:47:31 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemToCart -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.AddToCartTest@13da22c]" name="afterMethod" is-config="true" duration-ms="1427" started-at="2023-06-06T13:47:31 AST" finished-at="2023-06-06T13:47:33 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.AddToCartTest.AddItemToCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddItemToCart status=SUCCESS method=AddToCartTest.AddItemToCart()[pri:1, instance:ikeaApp.AddToCartTest@13da22c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AddItemToCart()[pri:1, instance:ikeaApp.AddToCartTest@13da22c]" name="AddItemToCart" duration-ms="3122" started-at="2023-06-06T13:47:33 AST" finished-at="2023-06-06T13:47:36 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItemToCart -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.AddToCartTest@13da22c]" name="afterMethod" is-config="true" duration-ms="1443" started-at="2023-06-06T13:47:36 AST" finished-at="2023-06-06T13:47:37 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.AddToCartTest.AddItemToCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=AddItemToCart status=SUCCESS method=AddToCartTest.AddItemToCart()[pri:1, instance:ikeaApp.AddToCartTest@13da22c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.AddToCartTest -->
+      <class name="ikeaApp.RemoveFromCartTest">
+        <test-method status="PASS" signature="RemoveItemfromCart()[pri:1, instance:ikeaApp.RemoveFromCartTest@1e202ad]" name="RemoveItemfromCart" duration-ms="204" started-at="2023-06-06T13:47:53 AST" finished-at="2023-06-06T13:47:53 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemfromCart -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ikeaApp.RemoveFromCartTest@1e202ad]" name="afterMethod" is-config="true" duration-ms="1443" started-at="2023-06-06T13:47:53 AST" finished-at="2023-06-06T13:47:54 AST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ikeaApp.RemoveFromCartTest.RemoveItemfromCart()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=RemoveItemfromCart status=SUCCESS method=RemoveFromCartTest.RemoveItemfromCart()[pri:1, instance:ikeaApp.RemoveFromCartTest@1e202ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ikeaApp.RemoveFromCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

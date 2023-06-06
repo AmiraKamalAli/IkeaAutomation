@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.ListenerClass" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="ikeaApp.SearchTest" />
+			<class name="ikeaApp.SerachResultListTest" />
+			<class name="ikeaApp.ProductDetailsTest" />
+			<class name="ikeaApp.CompareProduct_ListAndDetailsTest" />
+			<class name="ikeaApp.AddToCartTest" />
+			<class name="ikeaApp.BackToHomeTest" />
+			<class name="ikeaApp.checkcartItemTest" />
+			<class name="ikeaApp.checkItemQuantityTest" />
+			<class name="ikeaApp.RemoveFromCartTest" />
+			<class name="ikeaApp.ConfirmRemoveFromCartTest" />
+			<class name="ikeaApp.EmptyStateTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
